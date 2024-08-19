@@ -11,7 +11,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/raksul/go-clickup/clickup"
+	"github.com/Zlatex/go-clickup/clickup"
 )
 
 func main() {

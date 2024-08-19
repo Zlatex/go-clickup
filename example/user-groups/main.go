@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/raksul/go-clickup/clickup"
+	"github.com/Zlatex/go-clickup/clickup"
 )
 
 func fetchUserGroups() ([]clickup.UserGroup, error) {

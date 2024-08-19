@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/raksul/go-clickup/clickup"
+	"github.com/Zlatex/go-clickup/clickup"
 )
 
 func fetchSpaces(teamId string) ([]clickup.Space, error) {
