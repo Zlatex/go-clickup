@@ -35,7 +35,7 @@ type TaskCommentOptions struct {
 }
 
 type Comment struct {
-	ID          int                `json:"id"`
+	ID          interface{}        `json:"id"`
 	Comment     []CommentInComment `json:"comment"`
 	CommentText string             `json:"comment_text"`
 	User        User               `json:"user"`
